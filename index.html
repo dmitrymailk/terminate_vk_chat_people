@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .fuck-off-vk-people-wrapper {
+        display: flex;
+        height: 100px;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+      }
+
+      .fuck-off-vk-people-item {
+        display: flex;
+        padding: 8px;
+        align-items: center;
+      }
+
+      .fuck-off-vk-people-person {
+        margin-right: 16px;
+        font-size: 16px;
+        font-family: Arial;
+      }
+
+      #banPerson {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        border: none;
+        color: white;
+        font-family: Avenir, Arial, sans-serif;
+        font-weight: 900;
+        font-size: 1.4rem;
+        background: red;
+        text-shadow: 0 3px 1px rgba(122, 17, 8, 0.8);
+        box-shadow: 0 8px 0 rgb(183, 9, 0), 0 15px 20px rgba(0, 0, 0, 0.35);
+        text-transform: uppercase;
+        outline: none;
+        cursor: pointer;
+        text-align: center;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+      #banPerson:active {
+        padding-top: 3px;
+        transform: translateY(6px);
+        box-shadow: 0 4px 0 rgb(183, 0, 0), 0 8px 6px rgba(0, 0, 0, 0.45);
+      }
+    </style>
+    <div class="fuck-off-vk-people-wrapper">
+      <button class="fuck-off-vk-people-button" id="banPerson">BAN</button>
+    </div>
+    <div class="fuck-off-vk-people-list" id="list"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
